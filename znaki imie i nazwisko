@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string imie, nazwisko, imieinazwisko;
+    cin>>imie;
+    cin>>nazwisko;
+    imieinazwisko=imie+nazwisko;
+    cout<<imieinazwisko.length();
+}
